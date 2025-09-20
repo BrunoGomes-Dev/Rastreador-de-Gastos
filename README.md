@@ -5,13 +5,13 @@ Uma ferramenta de terminal que visa rastrear seus gastos, permitindo adicionar, 
 ## Instalação e pré-requisitos
 
 - Para este projeto funcionar, deve ter Python instalado em seu computador. Para verificar, abra o terminal e digite `python --version`. Se não aparecer nada, instale através da página oficial: [Python](https://www.python.org/downloads/).
-- Clone o repositório em seu computador
-- Após isto, execute `pip install -r requirements.txt` no terminal.
-- Abra o terminal na pasta do projeto e digite: `python main.py`, o programa executará normalmente.
+- Clone o repositório em seu computador.
+- Após isto, execute `pip install -r requirements.txt` no terminal (recomenda-se utilizar um ambiente virtual).
 
 ### Uso
-O programa contém 6 funções principais, sendo elas:
+As principais funções do programa são:
 
+- `python main.py` ou `python main.py --help`: exibe as principais funções e o que elas fazem;
 - `python main.py add`: adicione itens a tua lista;
 - `python main.py delete <id>`: delete um item a partir de um ID;
 - `python main.py edit <id>`: digite um ID e modifique os dados do item;
